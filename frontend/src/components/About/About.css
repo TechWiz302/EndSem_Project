@@ -1,0 +1,196 @@
+.about-area {
+	position: relative;
+	z-index: 1;
+}
+
+.about-content {
+    margin-left: 0px;
+}
+
+.about-content h2 {
+	font-size: 38px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.about-content p {
+	margin-bottom: 15px;
+}
+.about-content .default-btn {
+    margin-top: 10px;
+}
+
+
+.about-image {
+    position: relative;
+	text-align: center;
+}
+
+.about-image .years-design {
+    position: absolute;
+    left: -75px;
+    bottom: 25px;
+    text-align: center;
+    padding: 15px 25px 15px 25px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #1dc2cf;
+	border-radius: 10px 10px;
+	-webkit-box-shadow: -1px 3px 20px 0px rgb(82, 90, 101, 0.1);
+	box-shadow: -1px 3px 20px 0px rgb(82, 90, 101, 0.1);
+}
+
+.about-image .years-design h2 {
+    font-size: 60px;
+    font-weight: 800;
+    background: url(../../assets/images/banner-bg.jpg) no-repeat;
+    background-position: 75% 50%;
+	background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.1;
+    margin: 0px;
+}
+.about-image .years-design h5 {
+    color: #1dc2cf;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-top: 10px;
+    text-transform: capitalize;
+	letter-spacing: 0.3px;
+}
+
+.about-area .skills {
+	margin-top: 30px;
+}
+.about-area .skills .skill-item {
+	margin-bottom: 25px;
+}
+
+.about-area .skills .skill-item:last-child {
+	margin-bottom: 0px;
+}
+
+.about-area .skills .skill-item h6 {
+	position: relative;
+	z-index: 4;
+	font-size: 15px;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.about-area .skills .skill-item h6 em {
+	float: right;
+	font-size: 15px;
+	font-style: normal;
+}
+.about-area .skills .skill-item .skill-progress {
+	position: relative;
+	height: 5px;
+	border-radius: 5px;
+	background: #f1f1fa;
+}
+.about-area .skills .skill-item .skill-progress .progres {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 10%;
+	background-color: #1dc2cf;
+	-webkit-transition: all 1.5s;
+	transition: all 1.5s;
+}
+
+.about-image .waves-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+.about-image .iq-video {
+    background: #3F51B5;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 100%;
+    line-height: 70px;
+    z-index: 9;
+    position: relative;
+}
+.about-image .iq-video:hover {
+    background: #fff;
+    color: #3F51B5;
+}
+.about-image .iq-video i {
+	margin-left: 5px;
+}
+.about-image .iq-waves {
+	position: absolute;
+	left: -30px;
+	top: -30px;
+	z-index: 2;
+}
+.about-image .iq-waves .waves {
+	position: absolute;
+	width: 130px;
+	height: 130px;
+    background: rgba(255, 255, 255, 0.65);
+	opacity: 0;
+	/* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; */
+	border-radius: 50%;
+	background-clip: padding-box;
+	-webkit-animation: waves 3s ease-in-out infinite;
+	animation: waves 3s ease-in-out infinite;
+}
+.about-image .iq-waves .wave-1 {
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+}
+.about-image .iq-waves .wave-2 {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.about-image .iq-waves .wave-3 {
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+}
+@-webkit-keyframes waves {
+	0% {
+		-webkit-transform: scale(0.2, 0.2);
+		transform: scale(0.2, 0.2);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+	50% {
+		opacity: 0.9;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	}
+	100% {
+		-webkit-transform: scale(0.9, 0.9);
+		transform: scale(0.9, 0.9);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+}
+@keyframes waves {
+	0% {
+		-webkit-transform: scale(0.2, 0.2);
+		transform: scale(0.2, 0.2);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+	50% {
+		opacity: 0.9;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	}
+	100% {
+		-webkit-transform: scale(0.9, 0.9);
+		transform: scale(0.9, 0.9);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+}

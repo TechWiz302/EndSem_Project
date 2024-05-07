@@ -1,0 +1,106 @@
+
+.team-area .section-title {
+	margin-bottom: 35px;
+}
+.single-team-box {
+	margin-top: 30px;
+	overflow: hidden;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+.team-image {
+	position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.team-image::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #000;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+.single-team-box:hover .team-image::before {
+    opacity: .8;
+    visibility: visible;
+}
+
+.single-team-box .team-image img {
+	width: 100%;
+	height: auto;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.single-team-box:hover .team-image img {
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.team-social-icon {
+    position: absolute;
+    z-index: 5;
+    bottom: -50px;
+    width: 100%;
+	text-align: center;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+.single-team-box:hover .team-social-icon {
+    bottom: 20px;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+
+.team-social-icon a {
+    margin: 5px;
+    color: #1dc2cf;
+	font-size: 16px;
+	display: inline-block;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+	will-change: transform;
+}
+.team-social-icon a i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #ffffff;
+	border-radius: 3px;
+}
+
+.team-info {
+    padding: 20px 15px 20px;
+    text-align: center;
+    background: #fbfbfb;
+    border-radius: 5px;
+    margin-top: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.team-info h3 {
+	color: #333;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.team-info span {
+	color: #1dc2cf;
+	font-size: 15px;
+	font-weight: 500;
+	display: block;
+}

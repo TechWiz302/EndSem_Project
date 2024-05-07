@@ -1,0 +1,80 @@
+.profile {
+  position: fixed;
+  width: 100%;
+  margin-left: 18%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.headingCard {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.75rem;
+  width: 80%;
+  height: 3rem;
+  margin: 0.75rem;
+  padding: 20px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.headingCard p {
+  margin: 0;
+  font-size: 30px;
+}
+
+.profile-section {
+  display: flex;
+}
+
+.profile-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 0.75rem;
+  width: 26%;
+  margin: 0.75rem;
+  padding: 20px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+
+.user-name p {
+    font-size: 30px;
+}
+
+.profile-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0.75rem;
+    width: 52.5%;
+    margin: 0.75rem;
+    padding: 20px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.info-div{
+    display: flex;
+    width: 87%;
+    font-size: 18px;
+    padding-top: 10px;
+    align-items: start !important;
+}
+
+.infoParameter{
+    padding-right: 10px;
+}
+
+.break-line{
+    border-top: 1px solid #b1b1b1;
+    padding-right: 90%;
+}

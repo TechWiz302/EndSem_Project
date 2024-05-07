@@ -1,0 +1,81 @@
+.appointment-section {
+	position: relative;
+	z-index: 1;
+	background-image: url(../../assets/images/banner-bg.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	overflow: hidden;
+}
+
+.appointment-section::before {
+	content: "";
+	position: absolute;
+    z-index: -1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	opacity: .6;
+	background-color: #112134;
+}
+
+.appointment-section .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.appointment-img {
+    background-image: url(../../assets/images/appointment.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.appointment-content {
+    max-width: 540px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+}
+
+
+.appointment-section .appointment-control {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	outline: none;
+	width: 100%;
+	height: 52px;
+	line-height: 50px;
+	border-radius: 7px;
+	padding-left: 18px;
+	padding-right: 30px;
+	border: 1px solid rgb(255 255 255 / 35%);
+	background: transparent;
+}
+.appointment-section textarea.appointment-control {
+    height: auto;
+    padding-top: 15px;
+    line-height: initial;
+}
+.appointment-section .appointment-form .form-group {
+    margin-bottom: 25px;
+}
+
+.appointment-section .appointment-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.appointment-section .appointment-control:-ms-input-placeholder {
+  color: #fff;
+}
+
+.appointment-section .appointment-control::-ms-input-placeholder {
+  color: #fff;
+}
+
+.appointment-section .appointment-control::placeholder {
+  color: #fff;
+}

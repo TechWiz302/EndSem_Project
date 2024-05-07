@@ -1,0 +1,73 @@
+.overview-content h2 {
+	font-size: 33px;
+	color: #04396a;
+	font-weight: 700;
+	margin: 8px 0 15px 0;
+}
+
+.overview-content p {
+	margin: 0 0 0 0;
+}
+
+.overview-content .features-list {
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-left: 0;
+	list-style-type: none;
+	margin-bottom: 0;
+	margin-top: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.overview-content .features-list li {
+	-ms-flex: 0 0 50%;
+	-webkit-box-flex: 0;
+	flex: 0 0 50%;
+	max-width: 50%;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.overview-content .features-list li span {
+	position: relative;
+	z-index: 1;
+    display: flex;
+    align-items: center;
+	color: #505060;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 15px 10px;
+	padding-left: 12px;
+	border-radius: 5px;
+	border-left: 2px solid #1dc2cf;
+    background-color: #f7f7f7;
+	overflow: hidden;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+.overview-content .features-list li span svg {
+    color: #1dc2cf;
+    font-size: 20px;
+    line-height: 0.8;
+    margin-right: 10px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.overview-content .features-list li span:hover {
+	color: #1dc2cf;
+	padding-left: 15px;
+}
+
+.overview-content .features-list li span:hover i {
+	color: #1dc2cf;
+}
+
+.overview-image {
+	text-align: center;
+}

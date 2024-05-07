@@ -1,0 +1,54 @@
+.hire-area {
+	position: relative;
+    z-index: 1;
+    background: url(../../assets/images/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hire-area::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+    background-color: #112134;
+}
+
+.hire-content {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	
+}
+
+.hire-content p {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.hire-content h2 {
+	color: #fff;
+	font-size: 38px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.hire-content h5 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.hire-content .default-btn {
+	margin-top: 20px;
+}
+
+.hire-content .btn-primary:hover {
+    color: #fff;
+}

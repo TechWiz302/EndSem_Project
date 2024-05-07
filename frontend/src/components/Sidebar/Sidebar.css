@@ -1,0 +1,38 @@
+.sidebar{
+    background-color: #fff;
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar .logo img{
+    padding: 10px;
+    width: 85%;
+}
+
+.sidebar .sidebar-content {
+    margin-left: 1.5rem;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-list p{
+    margin-top: 1rem !important;
+    font-size: 18px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #a09c9c;
+}
+
+.menu-list a {
+    /* margin: 5%; */
+    padding: 5%;
+    font-size: 16px;
+    color: #000;
+}

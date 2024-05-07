@@ -1,0 +1,49 @@
+.signupbtn .input-submit {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 14px 40px;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: #ffffff;
+    background: #1dc2cf;
+    cursor: pointer;
+    border: 0;
+}
+
+.signupbtn .input-submit:hover {
+    color: #ffffff;
+    background: #0c345a;
+}
+
+.addRecordBtn {
+    margin-top: 20px;
+    border: none;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    color: #1dc2cf;
+    background-color: #fff;
+    border: 1px solid #1dc2cf;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.addRecordBtn:hover {
+    color: #fff;
+    background-color: #1dc2cf;
+}
+
+.recordsHeading p{
+    color: black;
+    font-size: 25px;
+    padding-left: 20px;
+}

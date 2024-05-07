@@ -1,0 +1,1111 @@
+ 
+ /*
+.header-navber-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	background: transparent;
+}
+*/
+
+.header-navber-area .nav-top-bar {
+	background: #1dc2cf;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.header-navber-area .nav-top-bar .nav-contact-info p {
+	margin: 0 13px 0 0;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 15px;
+    font-weight: 500;
+}
+
+.header-navber-area .nav-top-bar .nav-contact-info p i {
+	margin-right: 3px;
+	font-size: 15px;
+}
+
+.header-navber-area .nav-top-bar .nav-contact-info p a {
+	color: #ffffff;
+}
+/*
+.header-navber-area .nav-top-bar .nav-contact-info p a:hover,
+.header-navber-area .nav-top-bar .nav-contact-info p a:focus {
+	color: #ffffff;
+}
+*/
+.header-navber-area .nav-top-bar .top-social {
+	float: right;
+	padding: 0;
+	margin: 0 0 0 10px;
+	list-style-type: none;
+}
+
+.header-navber-area .nav-top-bar .top-social li {
+	display: inline-block;
+}
+
+.header-navber-area .nav-top-bar .top-social li a {
+    color: #ffffff;
+    font-size: 14px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 5px;
+    background: rgb(255, 255, 255, 0.15);
+    border-radius: 50%;
+}
+
+.header-navber-area .nav-top-bar .top-social li a:hover,
+.header-navber-area .nav-top-bar .top-social li a:focus {
+	color: #fff;
+    background: rgb(255, 255, 255, 0.4);
+}
+
+.navbar-b {
+	transition: all .5s ease-in-out;
+	background-color: transparent;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+
+.medicare-responsive-nav {
+	display: none;
+}
+
+
+.medicare-nav {
+	background-color: transparent;
+	/* padding-top: 15px;
+	padding-bottom: 15px; */
+	padding-right: 0;
+	padding-left: 0;
+	margin: 0 70px;
+}
+
+.medicare-nav img{
+    width: 250px;
+    height: 80px;
+}
+
+.medicare-nav .navbar {
+	padding-right: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+
+.medicare-nav .navbar ul {
+	padding-left: 0;
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+.medicare-nav .navbar .navbar-nav {
+	margin: auto;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item {
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.medicare-nav.index-navber .navbar .navbar-nav .nav-item a {
+	color: #555;
+}
+.medicare-nav .navbar .navbar-nav .nav-item a {
+	color: #565656;
+	font-size: 16px;
+	font-weight: 600;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-left: 15px;
+	margin-right: 15px;
+	letter-spacing: 0.3px;
+}
+/*
+.medicare-nav .navbar .navbar-nav .nav-item a:hover, .medicare-nav .navbar .navbar-nav .nav-item a:focus, .medicare-nav .navbar .navbar-nav .nav-item a.active {
+	color: #1dc2cf;
+}
+*/
+.medicare-nav .navbar .navbar-nav .nav-item a i {
+	font-size: 10px;
+	position: relative;
+	top: -1px;
+	margin-left: 1px;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item:last-child a {
+	margin-right: 0;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item:first-child a {
+	margin-left: 0;
+}
+/*
+.medicare-nav .navbar .navbar-nav .nav-item:hover a, .medicare-nav .navbar .navbar-nav .nav-item:focus a, .medicare-nav .navbar .navbar-nav .nav-item.active a {
+	color: #1dc2cf;
+}
+*/
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	background: #ffffff;
+	position: absolute;
+	border: none;
+	top: 80px;
+	left: 0;
+	width: 230px;
+	z-index: 99;
+	display: block;
+	opacity: 0;
+	visibility: hidden;
+	border-radius: 5px;
+    overflow: hidden;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding: 0px;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li {
+	padding: 0;
+	border-bottom: 1px solid #f1f1f1;
+}
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li:last-child {
+	border-bottom: 0px solid transparent;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+	text-transform: capitalize;
+	padding: 10px 15px;
+	margin: 0;
+	position: relative;
+	color: #505060;
+	font-size: 15px;
+	font-weight: 500;
+	border-left: 3px solid transparent;
+	letter-spacing: 0.5px;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+	color: #1dc2cf;
+	background: #f8f8f8;
+	padding-left: 20px;
+	border-left: 3px solid #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+	left: -245px;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+	color: #696997;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+	color: #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+	left: -245px;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+	color: #696997;
+	text-transform: capitalize;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+	color: #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+	left: -245px;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+	color: #696997;
+	text-transform: capitalize;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+	color: #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+	left: 195px;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+	color: #696997;
+	text-transform: capitalize;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+	color: #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+	left: 195px;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+	color: #696997;
+	text-transform: capitalize;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+	color: #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+	left: 195px;
+	top: 0;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+	color: #696997;
+	text-transform: capitalize;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+	color: #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+	color: #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+	opacity: 1;
+	visibility: visible;
+	top: -15px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+	color: #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+	opacity: 1;
+	visibility: visible;
+	top: -15px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+	color: #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+	opacity: 1;
+	visibility: visible;
+	top: -15px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+	color: #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+	opacity: 1;
+	visibility: visible;
+	top: -15px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
+	color: #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+	opacity: 1;
+	visibility: visible;
+	top: -15px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
+	color: #1dc2cf;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+	opacity: 1;
+	visibility: visible;
+	top: -15px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.medicare-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu {
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.medicare-nav .navbar .other-option {
+	margin-left: 0;
+	margin-top: 5px;
+}
+
+.medicare-nav .navbar .other-option .default-btn {
+    font-size: 15px;
+	box-shadow: 0 2px 15px rgb(123, 104, 238, 0.15);
+}
+
+.medicare-nav .navbar .other-option .default-btn.nav-btn-1 {
+	margin-right: 15px;
+}
+
+.medicare-nav .black-logo {
+	display: none;
+}
+
+.navbar-area {
+	background-color: transparent;
+}
+
+.navbar-area.is-sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	-webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+	box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
+	background: #ffffff !important;
+	-webkit-animation: 500ms ease-in-out 0s normal fadeInDown;
+	animation: 500ms ease-in-out 0s normal fadeInDown;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.navbar-area.is-sticky .navbar-nav .nav-item a {
+	color: #565656;
+}
+
+.navbar-area.is-sticky .navbar-nav .nav-item a:hover, .navbar-area.is-sticky .navbar-nav .nav-item a:focus, .navbar-area.is-sticky .navbar-nav .nav-item a.active {
+	color: #1dc2cf;
+}
+
+.navbar-area.is-sticky .medicare-nav .navbar-brand .white-logo {
+	display: none;
+}
+
+.navbar-area.is-sticky .medicare-nav .navbar-brand .black-logo {
+	display: block;
+}
+
+@media only screen and (max-width: 991px) {
+	.navbar-area {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.navbar-area.is-sticky {
+		border-bottom: none;
+		-webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+		box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.navbar-area.is-sticky .logo .white-logo {
+		display: none;
+	}
+
+	.navbar-area.is-sticky .logo .black-logo {
+		display: block;
+	}
+
+	.medicare-responsive-nav {
+		display: block;
+	}
+
+	.medicare-responsive-nav .medicare-responsive-menu {
+		position: relative;
+	}
+
+	.medicare-responsive-nav .medicare-responsive-menu.mean-container .mean-nav ul {
+		font-size: 15px;
+	}
+
+	.medicare-responsive-nav .medicare-responsive-menu.mean-container .mean-nav ul li a {
+		font-size: 15px;
+	}
+
+	.medicare-responsive-nav .medicare-responsive-menu.mean-container .mean-nav ul li a.active {
+		color: #1dc2cf;
+	}
+
+	.medicare-responsive-nav .medicare-responsive-menu.mean-container .mean-nav ul li li a {
+		font-size: 15px;
+	}
+
+	.medicare-responsive-nav .medicare-responsive-menu.mean-container .navbar-nav {
+		overflow-y: scroll;
+		height: 270px;
+		-webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+		box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+	}
+
+	.medicare-responsive-nav .medicare-responsive-menu.mean-container .others-options {
+		display: none;
+	}
+
+	.medicare-responsive-nav .mean-container a.meanmenu-reveal {
+		color: #505060;
+	}
+
+	.medicare-responsive-nav .mean-container a.meanmenu-reveal span {
+		background: #505060;
+	}
+
+	.medicare-responsive-nav .logo {
+		position: relative;
+		width: 50%;
+		z-index: 999;
+	}
+
+	.medicare-responsive-nav .logo .white-logo {
+		display: block;
+	}
+
+	.medicare-responsive-nav .logo .black-logo {
+		display: none;
+	}
+
+	.medicare-nav {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.default-btn {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+	.navbar-light .navbar-brand {
+		position: relative;
+		margin-left: 0;
+		margin-right: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		top: 0;
+		left: 0;
+	}
+	.navbar-area.is-sticky .navbar-light .navbar-brand {
+		position: relative;
+		margin-left: 0;
+		margin-right: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+		top: 0;
+		left: 0;
+	}
+	.medicare-nav .navbar .navbar-nav .nav-item a {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.home-3 .main-banner-content h1 {
+		font-size: 48px;
+	}
+	.about-content h2 {
+		font-size: 33px;
+	}
+	.appointment-content {
+		padding-top: 70px;
+		padding-bottom: 70px;
+		padding-left: 0px;
+		padding-right: 25px;
+	}
+	.testimonial-slider.owl-theme .owl-nav [class*=owl-] {
+		left: 0;
+	}
+
+	.testimonial-slider.owl-theme .owl-nav [class*=owl-].owl-next {
+		right: 0;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.section-title span {
+		font-size: 15px;
+	}
+
+	.section-title h3 {
+		font-size: 26px;
+		margin: 5px 0 0 0;
+	}
+
+	.navbar-area.is-sticky .medicare-responsive-nav .mean-container a.meanmenu-reveal {
+		padding-top: 6px;
+		color: #000000;
+	}
+
+	.navbar-area.is-sticky .medicare-responsive-nav .mean-container a.meanmenu-reveal span {
+		background: #000000;
+	}
+
+	.mean-container .mean-nav {
+		margin-top: 43px;
+	}
+
+	.medicare-responsive-nav .mean-container a.meanmenu-reveal {
+		padding-top: 6px;
+		color: #505060;
+	}
+
+	.medicare-responsive-nav.index-navber-responsive .mean-container a.meanmenu-reveal span {
+		background: #333;
+	}
+	.medicare-responsive-nav .mean-container a.meanmenu-reveal span {
+		background: #505060;
+	}
+	.nav-contact-info {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.header-navber-area .nav-top-bar .top-social {
+		float: unset;
+		margin: 0 0 0 0px;
+		text-align: center;
+	}
+	.other-option {
+		display: none;
+	}
+	.banner-btn .default-btn-one {
+		margin-right: 10px;
+	}
+	.home-3 .main-banner-content h1 {
+		font-size: 50px;
+	}
+	.home-area {
+		padding-top: 150px;
+		padding-bottom: 110px;
+		height: 100%;
+	}
+	
+	.home-area .banner-image {
+		text-align: center;
+		padding-top: 40px;
+	}
+	
+	.main-banner-content {
+		margin: auto;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.main-banner-content .banner-btn {
+		margin-top: 20px;
+	}
+
+	.slider .parallax-slider .caption {
+		text-align: center;
+		padding-top: 0px;
+	}
+	.about-content h2 {
+		font-size: 33px;
+	}
+	.about-image {
+		text-align: center;
+		margin-top: 35px;
+	}
+	
+	.about-image .years-design {
+		left: 0;
+		bottom: 0;
+		padding: 20px 25px 20px 25px;
+	}
+	.overview-image {
+		text-align: center;
+		margin-top: 35px;
+	}
+	.appointment-img {
+		display: none;
+	}
+	.appointment-content {
+		max-width: unset;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	
+	.services-widget {
+		margin-top: 50px;
+	}
+	
+	.partner-title {
+		margin-bottom: 30px;
+	}
+	.partner-list .partner-item {
+		-ms-flex: 0 0 50%;
+		-webkit-box-flex: 0;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	.partner-list .partner-item:nth-child(6) {
+		margin-left: 0;
+	}
+	.single-counter {
+		padding: 15px 0;
+	}
+	.blog-image img {
+		width: 100%;
+	}
+	
+	.partner-list .partner-item a {
+		padding: 0px 50px;
+	}
+	.contact-information-box-1 {
+		margin-bottom: 50px;
+	}
+	.page-title-area {
+		height: 300px;
+	}
+
+	.page-title-content h2 {
+		font-size: 35px;
+	}
+
+	.page-title-content ul {
+		margin-top: 6px;
+	}
+	.widget-area {
+		margin-top: 50px;
+	}
+	.widget-area .widget_medicare_posts_thumb .item .info .title {
+		font-size: 16px;
+	}
+
+	.tagcloud.section-top {
+		margin-bottom: 30px;
+	}
+
+	.tagcloud.section-bottom {
+		margin-bottom: 0;
+	}
+
+	.footer-box-item {
+		margin-bottom: 35px;
+	}
+	.footer-box-item:nth-last-child(-n + 2) {
+		margin-bottom: 0px;
+	}
+
+	.copyright-area {
+		text-align: left;
+	}
+
+	.copyright-area ul {
+		text-align: right;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.section-title h2 {
+		font-size: 30px;
+	}
+
+	.section-title h3 {
+		font-size: 26px;
+		margin: 5px 0 0 0;
+	}
+
+	.default-btn-one {
+		margin-right: 10px;
+	}
+
+	.other-option {
+		display: none;
+	}
+	.header-navber-area .nav-top-bar {
+		display: none;
+	}
+	.navbar-area.is-sticky .medicare-responsive-nav .mean-container a.meanmenu-reveal {
+		padding-top: 6px;
+		color: #000000;
+	}
+
+	.navbar-area.is-sticky .medicare-responsive-nav .mean-container a.meanmenu-reveal span {
+		background: #000000;
+	}
+
+	.mean-container .mean-nav {
+		margin-top: 43px;
+	}
+
+	.medicare-responsive-nav .mean-container a.meanmenu-reveal {
+		padding-top: 8px;
+		color: #505060;
+	}
+
+	.medicare-responsive-nav.index-navber-responsive .mean-container a.meanmenu-reveal span {
+		background: #333;
+	}
+	.medicare-responsive-nav .mean-container a.meanmenu-reveal span {
+		background: #505060;
+	}
+	.home-3 .main-banner-content h1 {
+		font-size: 45px;
+	}
+	.main-banner-content {
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.main-banner-content h1 {
+		font-size: 40px;
+		margin: 0 0 18px 0;
+	}
+
+	.main-banner-content .banner-btn {
+		margin-top: 20px;
+	}
+
+	.home-area {
+		height: 100%;
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	
+	.home-area .banner-image {
+		text-align: center;
+		padding-top: 40px;
+	}
+	
+	.slider .parallax-slider .caption {
+		text-align: center;
+		padding-top: 0px;
+	}
+	.slider .parallax-slider .caption h1 {
+		font-size: 35px;
+	}
+	.about-content h2 {
+		font-size: 30px;
+	}
+	.about-image {
+		text-align: center;
+		margin-top: 35px;
+	}
+	.about-image .years-design {
+		left: 0;
+		bottom: 0;
+		padding: 20px 25px 20px 25px;
+	}
+	.overview-content .features-list li {
+		-ms-flex: 0 0 100%;
+		-webkit-box-flex: 0;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.overview-content h2 {
+		font-size: 30px;
+	}
+	.overview-image {
+		text-align: center;
+		margin-top: 35px;
+	}
+	.appointment-img {
+		display: none;
+	}
+	.appointment-content {
+		max-width: unset;
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	
+	.services-widget {
+		margin-top: 50px;
+	}
+	#reservation-form .form-group {
+		margin-bottom: 0;
+	}
+	.reservation-section .nice-select, .reservation-section .reservation-date {
+		margin-bottom: 30px;
+	}
+	.hire-content h2 {
+		font-size: 32px;
+	}
+	.blog-image img {
+		width: 100%;
+	}
+
+	.partner-title {
+		margin-bottom: 30px;
+	}
+
+	.partner-title span {
+		font-size: 15px;
+	}
+
+	.partner-title h3 {
+		font-size: 26px;
+		margin: 5px 0 0 0;
+	}
+
+	.partner-list .partner-item {
+		-ms-flex: 0 0 50%;
+		-webkit-box-flex: 0;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
+	.partner-list .partner-item:nth-child(6) {
+		margin-left: 0;
+	}
+
+	.single-counter {
+		padding: 15px 0;
+	}
+	.single-testimonial {
+		padding: 30px 10px;
+	}
+
+	.partner-list .partner-item a {
+		padding: 0px 15px;
+	}
+	
+	.contact-box {
+		margin-bottom: 35px;
+	}
+	.contact-information-box-1 {
+		margin-bottom: 50px;
+	}
+	.page-title-area {
+		height: 300px;
+	}
+
+	.page-title-content h2 {
+		font-size: 35px;
+	}
+
+	.page-title-content ul {
+		margin-top: 6px;
+	}
+
+	.pagination-area {
+		margin-top: 0;
+	}
+
+	.pagination-area .page-numbers {
+		width: 40px;
+		height: 40px;
+		margin: 0px 1px;
+		line-height: 40px;
+		font-size: 15px;
+	}
+
+	.blog-details-desc .article-content .wp-block-gallery.columns-3 li {
+		-ms-flex: 0 0 100%;
+		-webkit-box-flex: 0;
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding-right: 10px;
+		padding-left: 10px;
+		margin-bottom: 20px;
+	}
+	.blog-details-desc .article-content .wp-block-gallery.columns-3 li:last-child {
+		margin-bottom: 0px;
+	}
+	.blog-details-desc .article-content h3 {
+		font-size: 20px;
+	}
+	
+	.widget-area {
+		margin-top: 50px;
+	}
+	
+	.widget-area .widget_medicare_posts_thumb .item .info .title {
+		font-size: 16px;
+	}
+
+	.tagcloud.section-top {
+		margin-bottom: 30px;
+	}
+
+	.tagcloud.section-bottom {
+		margin-bottom: 0;
+	}
+
+	.comments-area .comment-respond .comment-form-author {
+		float: left;
+		width: 100%;
+		padding-right: 0px;
+	}
+	.comments-area .comment-respond .comment-form-email {
+		float: left;
+		width: 100%;
+		padding-left: 0px;
+	}
+
+	.coming-soon-area {
+		height: 100%;
+		padding-top: 160px;
+		padding-bottom: 150px;
+	}
+
+	.coming-soon-content h1 {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	.coming-soon-content #timer div {
+		margin-bottom: 30px;
+	}
+
+	.footer-box-item {
+		margin-bottom: 35px;
+	}
+	.footer-box-item:last-child {
+		margin-bottom: 0px;
+	}
+	
+	.copyright-area {
+		text-align: center;
+	}
+
+	.copyright-area ul {
+		text-align: center;
+	}
+	
+	.copyright-area p {
+		margin-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.home-area {
+		height: 100%;
+		padding-top: 120px;
+		padding-bottom: 100px;
+	}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+	
+	.page-title-content h2 {
+		font-size: 28px;
+	}
+	.banner-btn a {
+		margin: 5px;
+	}
+	
+	.home-3 .main-banner-content h1 {
+		font-size: 35px;
+	}
+	.main-banner-content h1 {
+		font-size: 32px;
+	}
+	.slider .parallax-slider .caption h1 {
+		font-size: 30px;
+	}
+	.slider .parallax-slider .caption h4 {
+		font-size: 18px;
+	}
+	
+	.about-content h2 {
+		font-size: 28px;
+	}
+	.about-image .years-design {
+		display: none;
+	}
+	.overview-content h2 {
+		font-size: 28px;
+	}
+	.hire-content h2 {
+		font-size: 28px;
+	}
+	.hire-content h5 {
+		font-size: 18px;
+	}
+	.blog-details-desc .article-footer .article-tags {
+		-ms-flex: 0 0 100%;
+		-webkit-box-flex: 0;
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-bottom: 25px;
+	}
+	.blog-details-desc .article-footer .article-share {
+		-ms-flex: 0 0 100%;
+		-webkit-box-flex: 0;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.blog-details-desc .article-footer .article-share .social {
+		text-align: left;
+	}
+	.partner-list .partner-item {
+		-ms-flex: 0 0 100%;
+		-webkit-box-flex: 0;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.faq-accordion .accordion .accordion-item .accordion-title {
+		font-size: 16px;
+		padding: 25px 0;
+		padding-right: 35px;
+	}
+	
+	.comments-area .comment-list .children {
+		padding-left: 0;
+	}
+	.comments-area {
+		padding: 0;
+		box-shadow: none;
+	}
+
+	.contact-box {
+		margin-bottom: 35px;
+	}
+	.contact-information-box-1 {
+		margin-bottom: 50px;
+	}
+	.copyright-area p {
+		margin-bottom: 10px;
+	}
+}

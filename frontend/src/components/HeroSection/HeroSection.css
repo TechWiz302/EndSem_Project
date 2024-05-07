@@ -1,0 +1,87 @@
+.home-area {
+	position: relative;
+	z-index: 1;
+	height: 700px;
+    background: url(../../assets/images/slider-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.home-area:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    background: #112134;
+}
+
+.grey-cr {
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+    position: absolute;
+    bottom: -20%;
+    left: -10%;
+	z-index: -1;
+    background: rgb(215, 215, 215, 0.17);
+}
+
+.main-banner-content {
+	padding-top: 0px;
+	text-align: left;
+}
+
+.main-banner-content h4 {
+	color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 9px 25px;
+    display: inline-block;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    background: rgb(255, 255, 255, 0.15);
+    border: 1px solid rgb(255, 255, 255, 0.3);
+}
+
+.main-banner-content h1 {
+	font-size: 45px;
+	color: #fff;
+	margin: 0 0 20px 0;
+	font-weight: 700;
+}
+
+.home-3 .main-banner-content h1 {
+    font-size: 55px;
+    color: #fff;
+    margin: 0 0 20px 0;
+    font-weight: 700;
+}
+
+.main-banner-content p {
+	color: #fff;
+	font-size: 16px;
+	margin: 0 0 0 0;
+}
+
+.main-banner-content .banner-btn {
+	margin-top: 25px;
+}
+
+.home-area .banner-image {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.home-area .creative-shape {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
